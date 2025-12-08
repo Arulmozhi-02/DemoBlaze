@@ -18,7 +18,7 @@ public class TestClass extends Base_Class{
 		PageObjectManager.getPageObjectManager().getCheckout().checkout();
 		PageObjectManager.getPageObjectManager().getLogout().logout();
 		
-		
+		System.out.println("Hi");
 		
 		
 		
