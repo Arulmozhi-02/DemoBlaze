@@ -15,11 +15,11 @@ public static void main(String[] args)  {
 		
 		driver.get("https://www.youtube.com/");
 		
-		String value = ReadData.getData(5, 0);
+		String value = ReadData.getData(6, 0);
 		
 		driver.findElement(By.xpath("//input[@name='search_query']")).sendKeys(value);
 		
-		driver.findElement(By.xpath("//button[@class='ytSearchboxComponentSearchButton']")).click();
+		driver.findElement(By.xpath("//button[@title='Search']")).click();
 		
 		
 		
