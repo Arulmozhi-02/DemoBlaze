@@ -353,7 +353,7 @@ public abstract class Base_Class {
 	protected static void screenShot(String name) throws IOException
 	{
 		File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(source,new File("C:\\Users\\pc\\eclipse-workspace\\Maven_Project\\ScreenShot\\"+name+".jpg"));
+		FileHandler.copy(source,new File("D:\\GREENS SELENIUM COURSE\\Maven_Project\\ScreenShot\\"+name+".jpg"));
 		
 	}
 }

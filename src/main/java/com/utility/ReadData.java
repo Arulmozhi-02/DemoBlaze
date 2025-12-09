@@ -15,7 +15,7 @@ public class ReadData {
 	public static String getData(int rowNum, int colNum) {
 		String data = null;
 		try {
-			File file = new File("C:\\Users\\pc\\Downloads\\DataDriven_IPT.xlsx");
+			File file = new File("C:\\Users\\aruln\\Downloads\\DataDriven_IPT (1).xlsx");
 			Workbook book = new XSSFWorkbook(file);
 			Sheet sheet = book.getSheet("Sheet1");
 			Row row = sheet.getRow(rowNum);

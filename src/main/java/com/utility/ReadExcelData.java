@@ -15,7 +15,7 @@ public class ReadExcelData {
 	public static void readParticularData() {
 		//String data = null;
 		try {
-			File file = new File("C:\\Users\\pc\\Downloads\\DataDriven_IPT.xlsx");
+			File file = new File("C:\\Users\\aruln\\Downloads\\DataDriven_IPT (1).xlsx");
 			Workbook book = new XSSFWorkbook(file);
 			Sheet sheet = book.getSheet("Sheet1");
 			int lastRowNum = sheet.getLastRowNum();

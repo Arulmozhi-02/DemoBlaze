@@ -14,7 +14,7 @@ public class FileReaderManager {
 	
 	
 	private static void setupProperty() throws IOException {
-		File file = new File("C:\\Users\\pc\\eclipse-workspace\\Maven_Project\\src\\main\\resources\\TestData.properties");
+		File file = new File("D:\\GREENS SELENIUM COURSE\\Maven_Project\\src\\main\\resources\\TestData.properties");
 		try {
 			fileInputStream = new FileInputStream(file);
 			properties = new Properties();
